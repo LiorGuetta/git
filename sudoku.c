@@ -13,6 +13,7 @@ int solve_grid(int grid[9][9],int row, int col);
 /***************************************************/
 int main() {
   int board[9][9];
+  srand(time(0));
   for(int i=0; i<9; i++) 
       for(int j=0; j<9; j++) 
           board[i][j] = 0;

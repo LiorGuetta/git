@@ -1,5 +1,7 @@
-*
-!*.c
-!*.h
-!.gitignore
-!*/
+sudoku
+sudoku.exe
+
+*.o
+
+.DS_Store
+Thumbs.db
